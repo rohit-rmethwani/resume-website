@@ -1,0 +1,55 @@
+html{
+    font-family: 'Karla', sans-serif;
+}
+
+.main-container{
+    background-image: url("../resources/back.jpg");
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-container h1{
+    font-size: 100px;
+    margin: 0;
+}
+.main-container{
+    display: table;
+}
+.content-container{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-container .text-slider,
+.content-container .typed-cursor{
+    font-size: 30px;
+}
+
+.content-container .text-slider-items {
+  display: none;
+}
+
+.content-container a{
+    text-decoration: none;
+    color: #000;
+}
+
+.content-container .btn{
+    display: inline-block;
+    background: #FBCE00;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.intro-subtitle{
+    margin-bottom: 20px
+}
+.btn:hover{
+    background: #fff;
+    color: #FBCE00;
+    transition: .3s;
+}
